@@ -1,10 +1,18 @@
 body {
     margin:0;
-    background-image: url("./images/background.jpg");
+    background-color: rgba(236, 240, 241,1.0);
     background-repeat: no-repeat;
     background-size: cover;
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Gamja Flower', cursive;
+    font-family: 'Jua', sans-serif;
+    font-family: 'Rowdies', cursive;
 }
 
+.input-style {
+    margin-bottom: 1em;
+}
 
 .container {
     background-color: whitesmoke;
@@ -52,6 +60,12 @@ body {
     justify-content: space-between;
     padding:1em;
 }
+
+.checktask {
+    display: flex;
+}
+
+
 
 .task-done {
     text-decoration: line-through;

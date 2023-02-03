@@ -112,7 +112,6 @@ function filter(event) {
     } else if (mode = "done") {
         for (let i=0; i<taskList.length; i++){
             if(taskList[i].isComplete == true) {
-                filterList
                 filterList.push(taskList[i]);
                 console.log(filterList);
             }
@@ -145,12 +144,14 @@ function deleteTask(id) {
                 break;
             }  
         }
+        // 진행중 또는 끝남 tab에서 아이템을 삭제하면 바로 적용되게 하기
         for(let i=0; i<taskList.length; i++) {
             if(taskList[i].id == id) {
                 taskList.splice(i,1);
                 break;
             }
         }
+        //다시 모두 탭으로 돌아가도 진행중인 할일이 사라지지 않도록 하기
     render();
     console.log(filterList);
     }
