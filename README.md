@@ -10,3 +10,7 @@
 - 모바일 버전에서도 확인할 수 있는 반응형 웹이다.
 ## 홈페이지
 - https://taupe-bonbon-349428.netlify.app/
+## 캡쳐본
+<img src="https://github.com/YOUNGEUN100/mini2_ToDoList/assets/121986519/64492000-17d0-4aad-aef0-423887f1f049" width="400px">
+
+
